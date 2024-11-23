@@ -25,7 +25,6 @@ class ApiApplicationTest {
     private String baseURL;
     private ObjectMapper mapper;
     private List<Employee> employees;
-    private boolean isDeleteTest;
 
     @BeforeAll
     void init() {
